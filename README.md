@@ -45,7 +45,9 @@ python3 -m venv venv
 source venv/bin/activate   # Sur Windows : venv\Scripts\activate
 ```
 
-Installer `pylint` ou autres dépendances Python (si besoin) :
+Le script a été testé avec **pylint** et obtient une note **10/10** pour la qualité du code.
+
+Pour installer pylint et vérifier toi-même la qualité du script, utilise :
 
 ```bash
 pip install pylint
